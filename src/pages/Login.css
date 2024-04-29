@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+button{
+    background-color: black;
+    border-radius: 100px;
+    height: 35px;
+    width: 100px;
+    font-family: 'Inter','Sans-Serif';
+    color: pink;
+  }
+  input{
+    font-family:'Inter';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-bottom: 0px;
+    border-color: grey;
+    height: 30px;
+    width: 300px;
+    box-shadow: 5px 5px pink;
+    
+  }
+  h3{
+    font-family:'Inter';
+    font-weight: bold;
+  }
+  label{
+    font-family:'Inter';
+    font-weight: 400;
+  }
+  .Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }

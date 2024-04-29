@@ -1,0 +1,48 @@
+.Homepageback{
+    /* height: 100vh;
+    width:100vw; */
+    background-color: beige;
+    font-family: 'inter';
+    display: flex;
+    flex-direction: column;
+}
+.Postbox{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px grey;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.Postback{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Postimg{
+    max-width: 350px;
+    max-height: 300px;
+    /* border-radius: 20px; */
+    margin: 10px;
+}
+
+.Postheading{
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Postbody{
+    font-weight: bold;
+    color: grey;
+    font-size: medium;
+    margin: 10px;
+}

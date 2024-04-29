@@ -1,0 +1,35 @@
+.Navi{
+    width: 100vw;
+    height:75px;
+    background-color: black;
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-items: center;
+    text-align: center;
+    overflow: hide;
+    overflow-y: hidden;
+}
+.logo{
+    font-family: 'Inter';
+    color: pink;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-left:10px;
+}
+.Navbartag{
+    /* margin-top:5px; */
+    /* padding: 5px; */
+    padding-top: 5px;
+    padding-right: 15px;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: white;
+}
+.Profimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 15px;
+    border-color: none;
+    margin-right: 10px;
+}
